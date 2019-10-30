@@ -1,0 +1,139 @@
+html, body{
+    width: 98%;
+    height: 98%;
+    background-color: rgb(4, 0, 44);
+}
+
+.main-header{
+    position: absolute;
+    left: 7%;
+    font-size: 20px;
+    color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.author{
+    font-size: 18px;
+    position: absolute;
+    left: 13%;
+    top: 7%;
+    color: skyblue;
+}
+
+.counter{
+    color: skyblue;
+    font-size: 32px;
+    border: none;
+}
+
+.counter-div{
+    position: absolute;
+    align-items: center;
+    left: 42%;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+}
+
+.reset{
+    position: absolute;
+    left: 80%;
+    line-height: 0px;
+    top: 9%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(81,31,110);
+    border: solid white 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.counter-text{
+    color: skyblue;
+    position: absolute;
+    font-size: 15px;
+    left: 44%;
+    top: 9%;
+    border: none;
+}
+
+.speed-title{
+    color: blueviolet;
+    position: absolute;
+    left: 70%;
+    top: 2%;
+}
+
+.speed{
+    position: absolute;
+    font-size: 20px;
+    left: 74%;
+    top: 5%;
+    background-color: skyblue;
+    border: none;
+    width: 75px;
+    height: 20px;
+}
+
+.cmp{
+    color: blueviolet;
+    position: absolute;
+    left: 80%;
+    top: 2%;
+}
+
+.array{
+    left: 1%;
+    position: relative;
+    top: 160px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.element{
+    position: relative;
+    top: 250px;
+    border:  solid rgb(81,31,110) 1px;
+    width: 10px;
+    height: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: blueviolet;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 30%;
+    left: 14%;
+    width: 500px;
+}
+
+button{
+  width: 200px;
+  margin-left: 40px; 
+  background-color: rgb(81,31,110);
+  border: solid white 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sorting Algorithms Visualization
+        </title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+            <h2 class="main-header">Sorting Algorithms Visualization</h2>
+            <h3 class="author">by dulatcodes</h3>
+            <div class="counter-div">   
+                <h3 class="counter">0</h3>
+            </div> 
+            <h3 class="counter-text">comparisons made</h3>
+            <h3 class="speed-title">Speed</h3>
+            <input class="speed">
+            <h3 class="cmp">comparisons per second</h3>
+            <button class="reset" onclick="resetSpeed()">Reset</button>
+            <div class="array">
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+                <div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div><div class="element"></div>
+            </div>
+        
+            <div class="buttons">
+                <div class="button randomizeButton">
+                <button onclick="makeModeSort(); randomize();">Randomize</button>
+                </div>
+                <div class="button">
+                    <button id="bubbleSortButton" onclick="changeMode('bubble')">Bubble Sort</button>
+                </div>
+                <div class="button">
+                    <button id="insertionSortButton" onclick="changeMode('insertion')">Insertion Sort</button>
+                </div>
+                <div class="button">
+                    <button id="mergeSortButton" onclick="changeMode('merge')">Merge Sort</button>
+                </div>
+            </div>
+    </body>
+    <script src="script.js"></script>
+</html>
